@@ -1,0 +1,278 @@
+﻿  *{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+           
+        }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}        
+        .table1{
+            box-shadow: 0 0 5px rgb(46, 138, 200);
+            backdrop-filter: blur(10px);    
+             
+            width:1000px;
+          column-width:100px;
+            margin-top:30px;
+            margin-bottom:30px;
+
+            
+        }
+        .names {
+            font-size:larger;
+            font-weight: 400;
+            margin-left:40px;
+        }
+
+/*.textboxs {
+    height: 40px;
+    width: 500px;
+    margin-left: 100px;
+    font-size: large;
+    font-weight: 100;*/
+}
+
+            
+                
+        
+       /*.droplist{
+            height:40px;
+            width:510px;
+           
+            font-size:large;
+            font-weight:500;
+            margin-left:100px;
+            
+       }*/
+        .auto-style5 {
+             width: 164px;
+         }
+         .auto-style6 {
+             width: 230px;
+         }
+        
+         .column {
+             margin-left: 40px;
+         }
+         .auto-style2 {
+             width: 196px;
+         }
+         .auto-style3 {
+             width: 197px;
+         }
+         .auto-style4 {
+             width: 199px;
+         }
+    
+
+       /*.dropl{
+          margin-left:100px;*/
+             
+        .footer1{
+              text-align: center;
+              padding: 1px;
+              height:50px;
+              color:black;
+              background-color:rgb(44, 139, 198);
+              margin-top:20px;
+
+        }
+        .footer2{
+              text-align: center;
+              padding: 3px;
+             
+              color:blue;
+             
+        }
+       .header1{
+           text-align: center;
+              padding: 3px;
+             background-color:rgb(255, 255, 255);
+             height:75px;
+             
+       }
+       h1{
+           text-align:match-parent;
+           margin-top:10px;
+       }
+       .header2{
+          
+           text-align:center;
+           height:90px;
+           color:black;
+           padding:10px;
+           margin-bottom:30px;
+           font-size:x-large;
+           font-weight:800;
+            text-decoration-line:underline;
+       }
+       .header3{
+         
+          text-align: center;
+              padding: 3px;
+              background-color:rgb(46, 138, 200);
+              color: black;
+              text-align:right;
+              height:10px;       
+       }
+
+       .submitbutton{
+           height:50px;
+           width:150px;
+           background-color:rgb(44, 139, 198);
+       }
+
+    .editbutton{
+          height:50px;
+           width:150px;
+           background-color:red;
+    }
+    .confirmbutton{
+        height:50px;
+           width:150px;
+           background-color:blue;
+    }
+    .btnupload{
+         height:50px;
+           width:150px;
+           background-color:rgb(46, 138, 200);
+           padding:2px 2px 2px 2px;
+    }
+
+    .uploadtxtbox{
+        height: 40px;
+    width: 450px;
+    }
+    .table3{
+        box-shadow: 0 0 10px rgb(46, 138, 200);
+            backdrop-filter: blur(10px);
+         
+            width:1000px;
+            margin-left:100px;
+            margin-top:30px;
+            column-width:200px;
+           
+    }
+    .doc{
+         text-align: center;
+              padding: 3px;
+              color:blue;
+              font-size:xx-large;
+    }
+    .logo{
+       height: 130px;
+    width: 220px;
+    margin-left:30px;
+    border:unset;
+ 
+    }
+/*
+    Regstep2.aspx
+*/
+   .reg2body{
+    width:1250px;
+    
+}
+.header5{
+         text-align: center;
+              width:1200px;
+              color:blue;
+}
+.applcationnumber{
+    color:red;
+    font-weight:500;
+
+}
+.headerss{
+      background-color:rgb(46, 138, 200);
+           text-align:center;
+           height:30px;
+           width:800px;
+           color:black;
+           font-size:x-large;
+           font-weight:800;
+         
+           
+}
+
+.mintable{
+    /*box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);*/
+    
+            width:800px;
+            height:300px;
+            
+           
+}
+.table2{
+      box-shadow: 0 0 5px rgb(46, 138, 200);
+            backdrop-filter: blur(10px); 
+           
+            width:1000px;
+            height:900px;
+            text-align:center;
+            margin-left:120px;
+            margin-top:50px;
+            
+}
+.minitextbox{
+     height:40px;
+            width:200px;
+            text-align: center;
+            font-size:large;
+            font-weight:100;
+}
+.txtbox{
+     height: 30px;
+    width: 500px;
+}
+/* Print page*/
+
+.printtable{
+    width:1000px;
+          column-width:100px;
+          grid-row-sizing:auto;
+            margin-top:30px;
+            margin-bottom:30px;
+            border:dashed;
+
+}
+.printbaody{
+     border:double;
+}
+
+@media (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+
+            .form-container, .table1, .table3, .printtable {
+                width:  0%;
+            }
+
+            .btn-custom {
+                width: 100%;
+                max-width: 200px;
+            }
+            .auto-style5 {
+             width: 100%;
+         }
+         .auto-style6 {
+             width: 100%;
+         }
+        }
+
+ 
+        }
+
+        @media (max-width: 480px) {
+            .form-container, .table1, .table3, .printtable {
+                width: 100%;
+            }
+
+            .btn-custom {
+                width: 100%;
+            }
+        }

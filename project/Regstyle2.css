@@ -1,0 +1,60 @@
+﻿  body{
+
+    border:double;
+    width:900px;
+
+}
+
+
+.printtable1{
+    
+     height:1200px;
+    width:500px;
+   margin-bottom:40px;
+   
+
+}
+.pnt{
+    padding:2px 2px 2px 2px;
+    
+    
+}
+.Printheader{
+     background-color:lightgray;
+           text-align:center;
+           color:black;
+           font-size:x-large;
+           font-weight:800;
+           width:490px;
+          
+}
+td{
+    border:1px solid ;
+    padding:2px 2px 2px 2px ;
+    
+}
+
+pnt{
+    font-weight:300;
+ 
+}
+.pntm{
+    font-weight:500;
+    width:100px;
+}
+
+.itable{
+   
+  
+    width:660px;
+    height:500px;
+   
+}
+ .header1{
+           text-align: center;
+              padding: 3px;
+              
+              color:blue;
+       }
+
+ 
